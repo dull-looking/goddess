@@ -11,6 +11,17 @@ module.exports = appInfo => {
     pageSize: 50,
     serverUrl: 'https://hacker-news.firebaseio.com/v0',
   };
+  // mount midlleware
+  config.middleware = [
+    'robot',
+  ];
+  // middleware config
+  config.robot = {
+    ua: [
+      /curl/i,
+      /Baiduspider/i,
+    ],
+  };
   // add your config here
   config.view = {
     defaultViewEngine: 'nunjucks',

@@ -1,7 +1,7 @@
 'use strict';
 // app/middleware/robot.js
 // options === app.config.robot
-module.exports = (options, app) => {
+module.exports = (options) => {
   return function* robotMiddleware(next) {
     const source = this.get('user-agent') || '';
     const match = options.ua.some(ua => ua.test(source));
@@ -12,15 +12,4 @@ module.exports = (options, app) => {
       yield next;
     }
   };
-};
-// config/config.default.js
-// mount middleware
-exports.middleware = [
-  'robot',
-];
-// middleware config
-exports.robot = {
-  ua: [
-    /Baiduspider/i,
-  ],
 };
