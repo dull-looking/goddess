@@ -1,0 +1,64 @@
+2017-06-15 13:55:24,089 ERROR 45727 [-/127.0.0.1/-/2074ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Applications/邓肯21/FE/egg-example/app/view
+    at ViewManager.resolve (/Applications/邓肯21/FE/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at next (native)
+    at onFulfilled (/Applications/邓肯21/FE/egg-example/node_modules/co/index.js:65:19)
+name: 'AssertionError'
+actual: undefined
+expected: true
+operator: '=='
+message: 'Can\'t find news/list.tpl from /Applications/邓肯21/FE/egg-example/app/view'
+generatedMessage: false
+pid: 45727
+hostname: nemodeMacBook-Pro.local
+
+2017-06-15 13:55:24,102 ERROR 45727 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Applications/邓肯21/FE/egg-example/node_modules/egg-view/lib/view_manager.js'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.readFileSync (fs.js:508:33)
+    at ErrorView.getFrameSource (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/lib/error_view.js:147:21)
+    at stack.map.frame (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/lib/error_view.js:170:30)
+    at Array.map (native)
+    at ErrorView.parseError (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/lib/error_view.js:168:18)
+    at ErrorView.toHTML (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/lib/error_view.js:52:24)
+    at Object.html (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/app.js:67:29)
+    at Object.app.context.onerror (/Applications/邓肯21/FE/egg-example/node_modules/koa-onerror/index.js:84:23)
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/Applications/邓肯21/FE/egg-example/node_modules/egg-view/lib/view_manager.js'
+name: 'unhandledRejectionError'
+pid: 45727
+hostname: nemodeMacBook-Pro.local
+
+2017-06-15 13:57:19,290 ERROR 45727 [-/127.0.0.1/-/2048ms GET /news] nodejs.AssertionError: Can't find news/list.tpl from /Applications/邓肯21/FE/egg-example/app/view
+    at ViewManager.resolve (/Applications/邓肯21/FE/egg-example/node_modules/egg-view/lib/view_manager.js:74:5)
+    at next (native)
+    at onFulfilled (/Applications/邓肯21/FE/egg-example/node_modules/co/index.js:65:19)
+name: 'AssertionError'
+actual: undefined
+expected: true
+operator: '=='
+message: 'Can\'t find news/list.tpl from /Applications/邓肯21/FE/egg-example/app/view'
+generatedMessage: false
+pid: 45727
+hostname: nemodeMacBook-Pro.local
+
+2017-06-15 13:57:19,292 ERROR 45727 nodejs.unhandledRejectionError: ENOENT: no such file or directory, open '/Applications/邓肯21/FE/egg-example/node_modules/egg-view/lib/view_manager.js'
+    at Error (native)
+    at Object.fs.openSync (fs.js:640:18)
+    at Object.fs.readFileSync (fs.js:508:33)
+    at ErrorView.getFrameSource (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/lib/error_view.js:147:21)
+    at stack.map.frame (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/lib/error_view.js:170:30)
+    at Array.map (native)
+    at ErrorView.parseError (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/lib/error_view.js:168:18)
+    at ErrorView.toHTML (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/lib/error_view.js:52:24)
+    at Object.html (/Applications/邓肯21/FE/egg-example/node_modules/egg-onerror/app.js:67:29)
+    at Object.app.context.onerror (/Applications/邓肯21/FE/egg-example/node_modules/koa-onerror/index.js:84:23)
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/Applications/邓肯21/FE/egg-example/node_modules/egg-view/lib/view_manager.js'
+name: 'unhandledRejectionError'
+pid: 45727
+hostname: nemodeMacBook-Pro.local
+
